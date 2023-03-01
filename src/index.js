@@ -75,7 +75,7 @@ function onWrongNameType() {
   const wrongName = countryInput.value;
 
   Notiflix.Notify.failure(
-    "Oops, there is no country with that name '${wrongName}'"
+    `Oops, there is no country with that name '${wrongName}'`
   );
 }
 
